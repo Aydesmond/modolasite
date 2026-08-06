@@ -15,7 +15,7 @@
   --charcoal-700: #3A3A3D;
   --slate-600:    #545454; /* brand gray, from logo */
   --slate-400:    #8A8A8A;
-  --stone-50:     #F6F4F0;
+  --stone-50:     #fff5f6;
   --stone-100:    #EFEBE3;
   --stone-200:    #E3DDD1;
   --white:        #FFFFFF;
@@ -638,15 +638,15 @@ input, textarea{ font-family: inherit; }
 
  /* ===== Organogram widget (scoped, does not affect the rest of the site) ===== */
   .og-chart-widget{
-    --og-paper: #EFE9DB;
+    --og-paper: #fff6f6;
     --og-ink: #2A2420;
     --og-ink-soft: #5B5147;
-    --og-rust: #B0502B;
-    --og-rust-deep: #8A3B1F;
-    --og-amber: #C98A34;
+    --og-rust: #d60000;
+    --og-rust-deep: #770007;
+    --og-amber: #ff3742;
     --og-slate: #3D444E;
     --og-slate-deep: #2C3138;
-    --og-stone: #DCD4BF;
+    --og-stone: #fff;
     --og-line: #A6957A;
     --og-shadow: 0 6px 16px rgba(42,36,32,0.14);
     background: var(--og-paper);
